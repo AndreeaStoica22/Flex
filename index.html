@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex Machet</title>
+    <style>
+        main{
+            border-top: 2px solid #333;
+            border-bottom: 2px solid #333;
+            padding-top: 2em ;
+            padding-bottom: 2em;
+
+            display: flex;
+            width: 80vw;
+            margin: auto;
+            justify-content: space-between;
+        }
+        article{
+            background-color: #ddd;
+            /* margin: 1%; */
+            padding: 1em;
+            width: 30%;
+        }
+        article:last-child{
+            border: 2px solid red;
+        }
+
+        @media(max-width:1000px){
+            main{
+                display: flex;
+                flex-wrap: wrap;   
+            }
+            main article{
+                width: 100%;
+                padding: 1em;
+                margin-bottom: 2em;
+            }
+             article:last-child{
+             border: 2px solid red;
+             order: -1;
+             }
+        }
+    
+    
+    
+    </style>
+</head>
+<body>
+    <main>
+        <article>
+            <h2>Article 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis soluta explicabo sapiente pariatur est, a fugit qui mollitia. Asperiores tempore quos ipsa, praesentium sint esse inventore. Blanditiis tempore, recusandae aliquid aut, dolor magni nisi molestias voluptatibus, harum voluptas a molestiae vero ratione quis repudiandae! Enim laudantium distinctio aliquid! Quo, ipsam facilis. Hic, impedit? Ipsum tempora similique aspernatur quia fuga ratione inventore atque laborum veritatis. Quaerat culpa recusandae eos, excepturi velit maxime sapiente, magnam molestias nihil cum id neque fugiat. Labore.</p>
+            <p>Doloribus placeat excepturi pariatur harum, quis id quia esse facilis architecto ea ex modi inventore exercitationem quasi eveniet fugit rerum ipsa quas officia ad. Quaerat ipsum deleniti ea iure maiores animi aspernatur expedita est, quo, fuga incidunt pariatur error. Ipsam impedit culpa molestiae veritatis iure animi, vero nobis, temporibus laudantium placeat vitae dolorum in beatae dignissimos tempora laborum ullam repellat eos aspernatur sed? Eos possimus voluptatem fugit rerum porro eveniet suscipit quae ea, optio molestiae, labore nisi, veniam rem sapiente?</p>
+        </article>
+        <article>
+            <h2>Article 2</h2>
+            <p>Nihil, est deleniti magnam sint obcaecati omnis. Suscipit sequi dolorum rerum repellat fugiat iste fugit, omnis enim atque delectus ut ipsa totam sed commodi eum aliquid maiores quasi aperiam at quas cupiditate possimus dolores! Impedit laudantium incidunt reprehenderit quidem asperiores consectetur rem in beatae! Aut inventore facilis odio eum aperiam nihil, alias, provident hic voluptatibus quia, repellat praesentium. Sequi facilis nostrum blanditiis quidem error accusamus, explicabo voluptatibus doloribus nemo quia vel neque alias! Earum architecto exercitationem corrupti omnis ipsum necessitatibus!</p>
+            <p>Nostrum natus ipsam aut doloribus explicabo non perspiciatis cupiditate obcaecati fugiat nihil nesciunt est adipisci, alias vero iure quae incidunt quisquam aliquam quod quam. Consequatur accusantium ullam omnis et sequi animi. Accusantium architecto ipsam nulla asperiores impedit. Autem iste rerum vitae, adipisci excepturi similique soluta fugit illo necessitatibus ab repudiandae accusantium perferendis quam perspiciatis saepe, dolorum unde temporibus distinctio reprehenderit accusamus maxime doloremque, ad repellat! Eius et consequatur quis assumenda saepe, impedit odio perspiciatis autem, soluta, laboriosam animi dicta sit.</p>
+        </article>
+        <article>
+            <h2>Article 3</h2>
+            <p>Adipisci, numquam excepturi. Dolor unde, libero amet excepturi distinctio, voluptatem reiciendis, ea suscipit architecto expedita nulla harum! Perferendis voluptate facere saepe quam, temporibus inventore iste necessitatibus blanditiis eaque, quasi magnam nam odit adipisci sit perspiciatis hic praesentium dolorum in autem pariatur exercitationem nisi! Dolores quia quam accusantium rerum explicabo adipisci nulla in ex excepturi ut veniam minus eligendi, quo iure suscipit dicta, esse, magnam harum voluptate asperiores facere! Sed perferendis dolorem beatae consectetur saepe velit esse voluptate dolorum ratione rem.</p>
+            <p>Quasi officia deleniti earum cum ullam et laboriosam quo excepturi perspiciatis architecto corporis debitis consequatur commodi, culpa aut ipsum cumque velit asperiores qui vero ex quia? Assumenda, non aut consequuntur quam voluptas, dolore modi quo, magni illum mollitia odio totam at. Officia magni doloremque, aperiam similique quisquam veritatis officiis laboriosam nisi maxime? Inventore, blanditiis incidunt at quidem voluptas eaque atque laudantium accusamus veritatis, vel tenetur, molestiae dolorum rem quo fugiat id earum. Illo obcaecati suscipit quas minus pariatur cumque odit!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum explicabo consequuntur sapiente nihil similique rerum impedit illum at quae recusandae totam, dolorum tenetur fugit voluptate aut minus maxime rem, tempora veritatis, officiis aliquam esse quisquam id? Mollitia inventore sapiente corporis, expedita laboriosam delectus obcaecati error doloremque quo excepturi. Consequuntur, temporibus sequi saepe consequatur tempore earum numquam beatae voluptate praesentium doloribus excepturi dignissimos iste fuga! Tenetur consequuntur laborum inventore voluptatibus aut eaque est omnis rem alias, quae pariatur dolore soluta commodi.</p>
+        </article>
+    </main>
+</body>
+</html>
